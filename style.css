@@ -1,12 +1,14 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+/* * {
+  border-top: 10px solid #1098ad ;
+} */
+
+body {
+  color: #444;
   font-family: sans-serif;
-  /* color: #4444; */
+
+  border-top: 10px solid #1098ad ;
 }
+  
 
 h1, h2, h3{
   color:#1098ad;
@@ -132,4 +134,30 @@ a:link {
   background-color: black;
   font-style: italic;
  }
- /*LVHA*/
+ /* LVHA */
+
+ /* Resolving conflicts */
+ /* #copyright {
+  color: red;
+ }
+
+ .copyright {
+  color: blue;
+ }
+
+ .text {
+  color: yellow;
+ }
+
+ footer p {
+  color: green !important;
+ } */
+
+/* nav a:link, 
+nav p{
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
