@@ -357,3 +357,21 @@ footer{
   font-weight: normal;
   font-style: italic;
 }
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+article{
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside{
+  /* flex-basis: 300px */
+
+  flex: 0 0 300px ;
+}
